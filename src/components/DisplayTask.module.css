@@ -1,0 +1,182 @@
+.displayContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 30%);
+  width: 46rem;
+  min-height: 17.94rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.headerDisplayContainer {
+  width: 46rem;
+  height: 1.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.createdTasks {
+  width: 8.69rem;
+  height: 1.9rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.textCreatedTasks {
+  width: 6.63rem;
+  height: 1.06rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--Blue);
+  font-family: "Inter", sans-serif;
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.06rem;
+}
+
+.countCreatedTasks {
+  width: 1.56rem;
+  height: 1.19rem;
+  padding: 0.13rem 0.5rem 0.13rem 0.5rem;
+  border-radius: 62.44rem;
+  background: var(--Gray-400);
+  color: var(--Gray-200);
+  font-family: "Inter", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 0.94rem;
+}
+
+.completedTasks {
+  width: 8.63rem;
+  height: 1.19rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.textCompletedTasks {
+  width: 4.88rem;
+  height: 1.06rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0rem;
+  color: var(--Purple);
+  font-family: "Inter", sans-serif;
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.06rem;
+}
+
+.countCompletedTasks {
+  position: static;
+  width: 3.35rem;
+  height: 1.19rem;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.13rem 0.5rem 0.13rem 0.5rem;
+  border-radius: 62.44rem;
+  background: var(--Gray-400);
+  color: var(--Gray-200);
+  font-family: "Inter", sans-serif;
+  font-size: 0.75rem;
+ font-weight: 700;
+  line-height: 0.94rem;
+}
+
+.listTasks {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  width: 46rem;
+  max-height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.empty {
+  position: static;
+  width: 46rem;
+  height: 15.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1.5rem 4rem 1.5rem;
+  border-top: 0.0625rem solid var(--Gray-400);
+  border-radius: 0.5rem;
+  color: var(--Gray-300);
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 140%;
+  text-align: center;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.tasks {
+  width: 46rem;
+  height: 4.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  border: 0.06rem solid var(--Gray-400);
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0.13rem 0.5rem 0rem rgba(0, 0, 0, 0.06);
+  background: var(--Gray-500);
+  margin-bottom: 1rem;
+}
+
+.titleTask {
+  width: 39.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  color: var(--Gray-100);
+  font-family: "Inter", sans-serif;
+  font-size: 0.88rem;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.tasks img {
+  cursor: pointer;
+}
+
+.titleTaskDone {
+  position: static;
+  width: 39.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1rem;
+
+  color: var(--Gray-300);
+  font-family: Inter;
+  font-size: 0.88rem;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: line-through;
+}

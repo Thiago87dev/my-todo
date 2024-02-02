@@ -1,0 +1,34 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 100vw;
+  height: 12.5rem;
+  background-color: var(--gray-700);
+}
+
+.footer img {
+  width: 22px;
+  height: 36px;
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+
+.title {
+  color: var(--Blue);
+}
+
+.title span {
+  color: var(--PurpleDark);
+}
+
+.title,
+.title span {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 10px;
+}
