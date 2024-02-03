@@ -1,30 +1,48 @@
+# My todo :notebook:
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black" alt="react"/> 
+<img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white" alt="typescript"/>
 
-Currently, two official plugins are available:
+### 🏷️ About 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A todo  Website
 
-## Expanding the ESLint configuration
+### 💡 Functionalities 
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+* Create tasks.
+* Mark tasks as completed.
+* Delete tasks.
+* Task Counter
+* Completed task counter
+* validation
+* Responsive
 
-- Configure the top-level `parserOptions` property like this:
+###  🛠️ Built with
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+* React
+* Typescript
+* Vite
+* Git/GitHub
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### 🌐 Website
+:link: Link to access the website:
+[https://my-todo-dun.vercel.app/](https://my-todo-dun.vercel.app/)
+
+### 📸 Screenshots
+
+### Layout Desktop
+![screenshot](public/desktop-empty.png)
+![screenshot](public/desktop-full.png)
+
+### Layout Mobile
+![screenshot](public/mobile-empty.png)
+![screenshot](public/mobile-full.png)
+
+### ✒️ Author
+## :raising_hand: Thiago Alves
+
+- Linkedin - [Thiago Alves](https://www.linkedin.com/in/thiago-alves-010915274/)
+- GitHub - [Thiago87dev](https://github.com/Thiago87dev)
+- Frontend Mentor - [@MrThiago87](https://www.frontendmentor.io/profile/MrThiago87)
+- Instagram - [@thiagopaulista87](https://www.instagram.com/thiagopaulista87/)
