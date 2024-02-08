@@ -16,7 +16,7 @@
   height: 1.9rem;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .createdTasks {
