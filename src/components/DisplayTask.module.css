@@ -51,10 +51,12 @@
   font-size: 0.75rem;
   font-weight: 700;
   line-height: 0.94rem;
+  display: flex;
+  justify-content: center;
 }
 
 .completedTasks {
-  width: 8.63rem;
+  width: 9.63rem;
   height: 1.19rem;
   display: flex;
   justify-content: flex-start;
@@ -78,7 +80,7 @@
 
 .countCompletedTasks {
   position: static;
-  width: 3.35rem;
+  width: 4.35rem;
   height: 1.19rem;
   display: flex;
   flex-direction: column;
